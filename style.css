@@ -4,7 +4,7 @@
     --tertiary: rgba(49, 52, 61, 1);
     --dark: rgba(28, 29, 33, 1);
     --light: rgba(238, 238, 247, 1);
-  }
+}
 
 *{
     margin: 0;
@@ -20,9 +20,9 @@ header {
     background-color: rgba(49, 52, 61, 1);
     align-items: center;
     justify-content: space-around;
-  }
-  
-  header h1 {
+}
+
+header h1 {
     margin: 0;
     margin-right: auto;
     background-color: rgba(146, 204, 206, 1);
@@ -32,9 +32,9 @@ header {
     position: relative;
     left: -20px;
     padding-left: 100px;
-  }
+}
 
-  ul {
+ul {
     display: flex; 
     flex-direction: row;
     align-items: right;
@@ -42,31 +42,39 @@ header {
     text-align: left;
     padding: 10px;
     margin-left: auto;
-  }
-  
-  li {
+}
+
+li {
     display: flex; 
     margin-left: auto;
-  }
+}
   
-  li a {
+li a {
     color: rgba(146, 204, 206, 1);
     text-decoration: underline; 
     padding-right: 20px;
     font-size: 2rem;
-  }
-
-
-h3{
-    text-align: right;
-    border-right: 3px black;
-    font-size: 3em;
-    flex: 0 0 20%;
-    min-width: 20%;
-    max-width: 20%;
-    padding-right: 2%;
 }
 
+h2{
+color: rgba(68, 88, 119, 1);
+border-right: 6px solid rgba(68, 88, 119, 1);
+text-align: left;
+margin: 1% 2%;
+display: inline-block;
+justify-content: left;
+padding-right: 15px;
+line-height: 1.1;
+}
+
+#about-me-paragraph {
+
+}
+h3{
+
+}
+
+/* Plank sections are for the fencing background and "cquick bio" */
 #plank {
     width: 100%;
     height: 250px;
