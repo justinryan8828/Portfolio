@@ -1,0 +1,59 @@
+:root {
+    --primary: rgba(68, 88, 119, 1);
+    --secondary: rgba(146, 204, 206, 1);
+    --tertiary: rgba(49, 52, 61, 1);
+    --dark: rgba(28, 29, 33, 1);
+    --light: rgba(238, 238, 247, 1);
+  }
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    display: flex;
+    position: relative;
+    flex-direction: row;
+    padding: 10px;
+    margin-left: 0;
+    background-color: rgba(49, 52, 61, 1);
+    align-items: center;
+    justify-content: space-around;
+  }
+  
+  header h1 {
+    margin: 0;
+    margin-right: auto;
+    background-color: rgba(146, 204, 206, 1);
+    color: rgba(68, 88, 119, 1);
+    display: inline;
+    padding: 10px 20px;
+    position: relative;
+    left: -20px;
+    padding-left: 100px;
+  }
+
+  ul {
+    display: flex; 
+    flex-direction: row;
+    align-items: right;
+    justify-content: flex-end;
+    text-align: left;
+    padding: 10px;
+    margin-left: auto;
+  }
+  
+  li {
+    color: rgba(146, 204, 206, 1);
+    display: flex; 
+    margin-left: auto;
+  }
+  
+  li a {
+    color: rgba(146, 204, 206, 1);
+    text-decoration: underline; 
+    padding-right: 20px;
+    font-size: 2rem;
+  }
+
