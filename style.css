@@ -55,26 +55,41 @@ li a {
     padding-right: 20px;
     font-size: 2rem;
 }
+/* h2 is all of my side margain headers */
 
 h2{
-color: rgba(68, 88, 119, 1);
-border-right: 6px solid rgba(68, 88, 119, 1);
-text-align: left;
-margin: 1% 2%;
-display: inline-block;
-justify-content: left;
-padding-right: 15px;
-line-height: 1.1;
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    align-items: stretch;
+    color: rgba(68, 88, 119, 1);
+    padding: 20px;
+    margin: 20px;
 }
 
-#about-me-paragraph {
+/* Aside section is for the content inside of the h2 */
 
+aside{
+    border-left: 2px solid rgba(68, 88, 119, 1);
+    text-align: left;
+    margin: 1% 2%;
+    display: inline-block;
+    justify-content: left;
+    padding-left: 15px;
+    line-height: 1.1;
 }
-h3{
 
+/* Container is the outside of h2 */
+
+.container{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
 }
 
 /* Plank sections are for the fencing background and "cquick bio" */
+
 #plank {
     width: 100%;
     height: 250px;
