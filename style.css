@@ -178,7 +178,6 @@ img:hover {
 /* Plank sections are for the fencing background and "quick bio" */
 
 #about-me-paragraph {
-  //background-color: blue;
   color: rgba(68, 88, 119, 1);
   text-align: left;
   display: flex;
@@ -211,5 +210,12 @@ img:hover {
   }
   section {
     padding-right: 0;
+  }
+}
+
+/* Telling my bottom links to form into a column */
+@media screen and (max-width: 768px) {
+  .section-content {
+    flex-direction: column;
   }
 }
