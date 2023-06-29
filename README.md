@@ -2,7 +2,7 @@
 
 ## Description
 
-This is a portfolio to display the work I have put in so far.
+This is a portfolio website showcasing the diverse range of work by Justin Moore. Here, you will find an extensive collection of projects, creations, and achievements, providing an insightful glimpse into their talents, skills, and professional expertise.
 
 ## Display
 
@@ -13,3 +13,5 @@ This is a portfolio to display the work I have put in so far.
 N/A
 
 ## Usage
+
+justinryan8828.github.io/portfolio
