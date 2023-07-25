@@ -14,4 +14,4 @@ N/A
 
 ## Usage
 
-justinryan8828.github.io/portfolio
+justinryan8828.github.io/Portfolio
